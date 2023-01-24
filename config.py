@@ -13,7 +13,9 @@ admins = {}
 
 SESSION_NAME = getenv("SESSION_NAME")
 
-if str(getenv("STRING_SESSION2")).strip() == "":
+if str(getenv("STRING_SESSION2")).strip() == "AQBq3D8tgfuomPIxb8Sdry0gyaGqhH13C3NnMH9jAV_i5_MQ1rpypGCJ9ySI_LPSPFOAU345LWYDz8lDdcIj9iyDV_OaVb6xRoNok63zbN41Ant0o-UlHKLp7TT2row9OzFNoxK5WNZD3pBHWBTPrE39nND5nlyu9Lrp7c51trAmLItM6k_Tnyk_27uaxxd4CpKUcZZYgpfzOeZjkjEQCZoyhLTBQmHhBH-2adqeUt9GCntExd6Bpg-UqKBbrM_olF1dh-f8tC2IWQkGFHy5KCMAqwi2Qvf4kIriIqnWE2GA9VYePSjeCviSXvMWgm7LSa1KTyuU60BF2D5uKC0yekAAAAAV3FS3AA 
+
+":
     SESSION2 = str(None)
 else:
     SESSION2 = str(getenv("STRING_SESSION2"))
@@ -33,7 +35,7 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5955204118:AAH4hbCzi51OLMKWQxiJTje5o1zUq6v_Zx8")
 BOT_NAME = getenv("BOT_NAME", "Umk")
 
 API_ID = int(getenv("API_ID", "8186557"))
